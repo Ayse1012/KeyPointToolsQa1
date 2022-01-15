@@ -1,0 +1,399 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-14T08:15:49.494Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2890932300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.toolsAndSauce.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Alerts Pass",
+        "description": "",
+        "id": "alerts;alerts-pass",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7354448400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user goes to tools home page",
+            "match": {
+              "location": "com.toolsAndSauce.step_definitions.AlertStepDefinitions.the_user_goes_to_tools_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 136264500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user navigate to \"Alerts, Frame \u0026 Windows\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Alerts, Frame \u0026 Windows\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.toolsAndSauce.step_definitions.AlertStepDefinitions.the_user_navigate_to(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2079184700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user click to \"Alerts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Alerts\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.toolsAndSauce.step_definitions.AlertStepDefinitions.the_user_click_to(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5104604300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user sees warning button and passes",
+            "match": {
+              "location": "com.toolsAndSauce.step_definitions.AlertStepDefinitions.the_user_sees_warning_button_and_passes()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5110920700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user waits five seconds and passes",
+            "match": {
+              "location": "com.toolsAndSauce.step_definitions.AlertStepDefinitions.theUserWaitsFiveSecondsAndPasses()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107973100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user sees verifies \"Do you confirm action?\" and passes",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Do you confirm action?\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.toolsAndSauce.step_definitions.AlertStepDefinitions.the_user_sees_verifies_and_passes(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164307200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user enter \"Hello\" and verify \"You entered Hello\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"You entered Hello\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.toolsAndSauce.step_definitions.AlertStepDefinitions.the_user_enter_and_verify(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@alert"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Alerts",
+    "description": "",
+    "id": "alerts",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Alerts.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-14T08:16:12.555Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11066000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.toolsAndSauce.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Drog And Drop",
+        "description": "",
+        "id": "ınteractions;drog-and-drop",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3146682600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user goes to tools home page",
+            "match": {
+              "location": "com.toolsAndSauce.step_definitions.AlertStepDefinitions.the_user_goes_to_tools_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 97840500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user navigate to \"Interactions\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Interactions\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.toolsAndSauce.step_definitions.AlertStepDefinitions.the_user_navigate_to(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2088007700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user click to \"Droppable\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Droppable\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.toolsAndSauce.step_definitions.AlertStepDefinitions.the_user_click_to(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 361705400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user keeps dragging and dropping",
+            "match": {
+              "location": "com.toolsAndSauce.step_definitions.InteractionsStepDefinitions.the_user_keeps_dragging_and_dropping()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47731300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user verify the \"Dropped!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dropped!\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.toolsAndSauce.step_definitions.InteractionsStepDefinitions.the_user_verify_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@drop"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Interactions",
+    "description": "",
+    "id": "ınteractions",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Interactions.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-14T08:16:18.337Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7441500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.toolsAndSauce.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Tool Tips",
+        "description": "",
+        "id": "widgets;tool-tips",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2601577700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user goes to tools home page",
+            "match": {
+              "location": "com.toolsAndSauce.step_definitions.AlertStepDefinitions.the_user_goes_to_tools_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 106222100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user navigate to \"Widgets\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Widgets\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.toolsAndSauce.step_definitions.AlertStepDefinitions.the_user_navigate_to(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2083936800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user click to \"Tool Tips\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tool Tips\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.toolsAndSauce.step_definitions.AlertStepDefinitions.the_user_click_to(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3206073800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user hovers over the Hover me to see button and verify message \"You hovered over the Button\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"You hovered over the Button\"",
+                  "offset": 63
+                }
+              ],
+              "location": "com.toolsAndSauce.step_definitions.WidgetsStepDefinitions.userHoversOverTheHoverMeToSeeButtonAndVerifyMessage(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3202420000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user hovers over the Hover me to see text field and verify message \"You hovered over the text field\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"You hovered over the text field\"",
+                  "offset": 67
+                }
+              ],
+              "location": "com.toolsAndSauce.step_definitions.WidgetsStepDefinitions.userHoversOverTheHoverMeToSeeTextFieldAndVerifyMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tools"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "widgets",
+    "description": "",
+    "id": "widgets",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/widgets.feature",
+    "tags": []
+  }
+]

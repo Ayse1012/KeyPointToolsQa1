@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="37.966">
+    <testcase classname="Alerts" name="Alerts Pass" time="21.376">
+        <system-out>
+            <![CDATA[Given The user goes to tools home page......................................passed
+And The user navigate to "Alerts, Frame & Windows"..........................passed
+And The user click to "Alerts"..............................................passed
+When The user sees warning button and passes................................passed
+And The user waits five seconds and passes..................................passed
+And The user sees verifies "Do you confirm action?" and passes..............passed
+Then The user enter "Hello" and verify "You entered Hello"..................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Interactions" name="Drog And Drop" time="5.1">
+        <system-out>
+            <![CDATA[Given The user goes to tools home page......................................passed
+And The user navigate to "Interactions".....................................passed
+And The user click to "Droppable"...........................................passed
+When The user keeps dragging and dropping...................................passed
+Then The user verify the "Dropped!".........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="widgets" name="Tool Tips" time="11.056">
+        <system-out>
+            <![CDATA[Given The user goes to tools home page......................................passed
+And The user navigate to "Widgets"..........................................passed
+And The user click to "Tool Tips"...........................................passed
+And user hovers over the Hover me to see button and verify message "You hovered over the Button".passed
+Then user hovers over the Hover me to see text field and verify message "You hovered over the text field".passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
